@@ -6,7 +6,7 @@ export function Hero() {
   return (
     <section className="border-b border-border bg-foreground text-background">
       <div className="mx-auto flex max-w-6xl flex-col items-start gap-8 px-4 py-24 sm:px-6 lg:px-8 lg:py-32">
-        <p className="text-sm font-semibold tracking-widest text-background/70 uppercase">
+        <p className="text-sm font-semibold tracking-widest text-gold uppercase">
           Strength &middot; Conditioning &middot; Results
         </p>
 
@@ -21,7 +21,11 @@ export function Hero() {
         </p>
 
         <div className="flex flex-col gap-4 sm:flex-row">
-          <Button asChild size="lg" variant="secondary">
+          <Button
+            asChild
+            size="lg"
+            className="bg-gold text-gold-foreground hover:bg-gold/90"
+          >
             <Link href="#membership">
               Book a Free Trial
               <ArrowRight />

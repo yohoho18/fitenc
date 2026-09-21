@@ -45,7 +45,7 @@ export function About() {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
           {VALUE_PROPS.map(({ icon: Icon, title, description }) => (
             <div key={title} className="flex flex-col gap-3">
-              <Icon className="size-6" strokeWidth={1.75} />
+              <Icon className="size-6 text-gold" strokeWidth={1.75} />
               <h3 className="text-base font-semibold">{title}</h3>
               <p className="text-sm text-muted-foreground">{description}</p>
             </div>

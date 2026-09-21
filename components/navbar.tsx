@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -21,10 +22,20 @@ export function Navbar() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link
           href="/"
-          className="text-lg font-bold tracking-tight uppercase"
+          className="flex items-center gap-2"
           onClick={() => setIsOpen(false)}
         >
-          Gym Name
+          <Image
+            src="/images/logo.png"
+            alt="Encore Fitness"
+            width={44}
+            height={44}
+            priority
+            className="size-11 rounded-full"
+          />
+          <span className="hidden text-lg font-bold tracking-tight uppercase sm:inline">
+            Encore Fitness
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -40,7 +51,11 @@ export function Navbar() {
         </nav>
 
         <div className="hidden md:block">
-          <Button asChild size="lg">
+          <Button
+            asChild
+            size="lg"
+            className="bg-gold text-gold-foreground hover:bg-gold/90"
+          >
             <Link href="#membership">Join Now</Link>
           </Button>
         </div>
@@ -69,7 +84,11 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Button asChild size="lg" className="mt-2">
+            <Button
+              asChild
+              size="lg"
+              className="mt-2 bg-gold text-gold-foreground hover:bg-gold/90"
+            >
               <Link href="#membership" onClick={() => setIsOpen(false)}>
                 Join Now
               </Link>

@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  // TODO: replace with real gym name/description once branding is finalized
-  title: "Gym Name — Strength & Conditioning",
+  // TODO: replace description with final SEO copy once business info is finalized
+  title: "Encore Fitness — Strength & Conditioning",
   description: "TBD gym description.",
 };
 
