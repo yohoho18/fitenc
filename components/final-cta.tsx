@@ -18,7 +18,7 @@ export function FinalCta() {
           size="lg"
           className="bg-gold-foreground text-gold hover:bg-gold-foreground/90"
         >
-          <Link href="#contact">
+          <Link href="#membership">
             Enroll Now
             <ArrowRight />
           </Link>

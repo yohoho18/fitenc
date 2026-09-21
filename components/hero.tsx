@@ -26,7 +26,7 @@ export function Hero() {
             size="lg"
             className="bg-gold text-gold-foreground hover:bg-gold/90"
           >
-            <Link href="#contact">
+            <Link href="#membership">
               Enroll Now
               <ArrowRight />
             </Link>

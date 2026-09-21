@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 const NAV_LINKS = [
   { label: "About", href: "#about" },
   { label: "Programs", href: "#programs" },
+  { label: "Membership", href: "#membership" },
   { label: "Facilities", href: "#facilities" },
   { label: "Contact", href: "#contact" },
 ];
@@ -55,7 +56,7 @@ export function Navbar() {
             size="lg"
             className="bg-gold text-gold-foreground hover:bg-gold/90"
           >
-            <Link href="#contact">Enroll Now</Link>
+            <Link href="#membership">Enroll Now</Link>
           </Button>
         </div>
 
@@ -88,7 +89,7 @@ export function Navbar() {
               size="lg"
               className="mt-2 bg-gold text-gold-foreground hover:bg-gold/90"
             >
-              <Link href="#contact" onClick={() => setIsOpen(false)}>
+              <Link href="#membership" onClick={() => setIsOpen(false)}>
                 Enroll Now
               </Link>
             </Button>
