@@ -4,6 +4,9 @@ import { About } from "@/components/about";
 import { Programs } from "@/components/programs";
 import { WhyChooseUs } from "@/components/why-choose-us";
 import { Facilities } from "@/components/facilities";
+import { Contact } from "@/components/contact";
+import { FinalCta } from "@/components/final-cta";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -15,7 +18,10 @@ export default function Home() {
         <Programs />
         <WhyChooseUs />
         <Facilities />
+        <Contact />
+        <FinalCta />
       </main>
+      <Footer />
     </>
   );
 }

@@ -26,8 +26,8 @@ export function Hero() {
             size="lg"
             className="bg-gold text-gold-foreground hover:bg-gold/90"
           >
-            <Link href="#membership">
-              Book a Free Trial
+            <Link href="#contact">
+              Enroll Now
               <ArrowRight />
             </Link>
           </Button>

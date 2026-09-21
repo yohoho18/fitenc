@@ -69,26 +69,26 @@ These may be added in a future phase.
 ## Business Information
 
 Gym Name:
-TBD
+Encore Fitness
 
 Location:
-TBD
+Pepsicola, Kathmandu-32
 
 Phone:
-TBD
++977-9841000000
 
 Email:
-TBD
+encorefit83@gmail.com
 
 Website:
 TBD
 
 Opening Hours:
-TBD
+6:00 AM - 9:00 PM
 
 ## Primary CTA
 
-TBD
+Enroll Now
 
 ## Secondary CTA
 

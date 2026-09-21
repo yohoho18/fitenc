@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  // TODO: replace description with final SEO copy once business info is finalized
-  title: "Encore Fitness — Strength & Conditioning",
-  description: "TBD gym description.",
+  title: "Encore Fitness — Strength & Conditioning in Kathmandu",
+  description:
+    "Encore Fitness is a strength and conditioning gym in Pepsicola, Kathmandu-32, offering personal training, group classes, and coach-led programs for all fitness levels.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
