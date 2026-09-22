@@ -8,8 +8,8 @@ const FACILITIES = [
   },
   {
     icon: Activity,
-    title: "Cardio & Conditioning Zone",
-    description: "Dedicated space for conditioning work, from intervals to steady state.",
+    title: "Train Together",
+    description: "A motivating fitness environment where energy, consistency, and community make every session count.",
   },
   {
     icon: LayoutGrid,

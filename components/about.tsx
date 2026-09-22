@@ -8,8 +8,8 @@ const VALUE_PROPS = [
   },
   {
     icon: Users,
-    title: "Certified Coaches",
-    description: "Experienced trainers who build programs around your goals.",
+    title: "A Better Way to Train",
+    description: "A motivating environment, quality equipment, and the support you need to stay consistent and keep progressing.",
   },
   {
     icon: Trophy,
