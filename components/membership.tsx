@@ -40,7 +40,7 @@ const PLANS = [
 
 export function Membership() {
   return (
-    <section id="membership" className="border-b border-border bg-muted/40">
+    <section id="membership" className="border-b border-border">
       <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6 lg:px-8">
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-4 text-center">
           <p className="text-sm font-semibold tracking-widest text-gold uppercase">
@@ -59,7 +59,7 @@ export function Membership() {
           {PLANS.map((plan) => (
             <div
               key={plan.name}
-              className={`relative flex flex-col gap-6 border bg-background p-8 ${
+              className={`relative flex flex-col gap-6 border bg-muted/40 p-8 ${
                 plan.featured ? "border-gold" : "border-border"
               }`}
             >

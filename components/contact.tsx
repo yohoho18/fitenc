@@ -27,7 +27,7 @@ const CONTACT_DETAILS = [
 
 export function Contact() {
   return (
-    <section id="contact" className="border-b border-border">
+    <section id="contact" className="border-b border-border bg-muted/40">
       <div className="mx-auto grid max-w-6xl gap-12 px-4 py-24 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
         <div className="flex flex-col gap-6">
           <p className="text-sm font-semibold tracking-widest text-gold uppercase">
@@ -62,7 +62,7 @@ export function Contact() {
           </dl>
         </div>
 
-        <div className="flex min-h-[320px] items-center justify-center border border-border bg-muted">
+        <div className="flex min-h-[320px] items-center justify-center border border-border bg-background">
           <div className="flex flex-col items-center gap-3 text-muted-foreground">
             <MapPin className="size-10 text-gold" strokeWidth={1.5} />
             <p className="text-sm">Map coming soon</p>

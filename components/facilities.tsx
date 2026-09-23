@@ -25,7 +25,7 @@ const FACILITIES = [
 
 export function Facilities() {
   return (
-    <section id="facilities" className="border-b border-border">
+    <section id="facilities" className="border-b border-border bg-muted/40">
       <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-4">
           <p className="text-sm font-semibold tracking-widest text-gold uppercase">
@@ -39,7 +39,7 @@ export function Facilities() {
         <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2">
           {FACILITIES.map(({ icon: Icon, title, description }) => (
             <div key={title} className="flex flex-col">
-              <div className="flex aspect-video items-center justify-center border border-border bg-muted">
+              <div className="flex aspect-video items-center justify-center border border-border bg-background">
                 <Icon className="size-10 text-gold" strokeWidth={1.5} />
               </div>
               <h3 className="mt-5 text-lg font-semibold">{title}</h3>
