@@ -23,7 +23,7 @@ const TESTIMONIALS = [
 
 export function Testimonials() {
   return (
-    <section id="testimonials" className="border-b border-border bg-muted/40">
+    <section id="testimonials" className="border-b border-border">
       <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6 lg:px-8">
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-4 text-center">
           <p className="text-sm font-semibold tracking-widest text-gold uppercase">
@@ -42,7 +42,7 @@ export function Testimonials() {
           {TESTIMONIALS.map((testimonial, index) => (
             <div
               key={index}
-              className="flex flex-col gap-4 border border-border bg-background p-6"
+              className="flex flex-col gap-4 border border-border bg-muted/40 p-6"
             >
               <Quote className="size-6 text-gold" strokeWidth={1.75} />
               <p className="text-sm text-muted-foreground italic">

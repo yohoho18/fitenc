@@ -35,7 +35,7 @@ const FAQS = [
 
 export function Faq() {
   return (
-    <section id="faq" className="border-b border-border">
+    <section id="faq" className="border-b border-border bg-muted/40">
       <div className="mx-auto max-w-3xl px-4 py-24 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center gap-4 text-center">
           <p className="text-sm font-semibold tracking-widest text-gold uppercase">
